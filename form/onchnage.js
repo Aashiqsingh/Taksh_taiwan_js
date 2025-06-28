@@ -17,3 +17,12 @@ const changeRedius = ()=>{
 
     mydiv.style.borderRadius = radius.value
 }
+
+const changeImg = ()=>{
+    let images = document.getElementById("images")
+    console.log(images.value);
+
+
+    mydiv.style.backgroundImage = "url("+images.value+")";
+    mydiv.style.backgroundSize = "cover";
+}
