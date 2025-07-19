@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #1e1e1e;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    div {
+        background-color: #2c2c2c;
+        padding: 40px 60px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    }
+
+    span {
+        font-size: 4rem;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    span:nth-child(2),
+    span:nth-child(4) {
+        color: #ff5722;
+        padding: 0 10px;
+    }
+</style>
+
+<body>
+
+    <div>
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+    </div>
+    
+
+
+
+    <script src="./clock.js"></script>
+</body>
+</html>
