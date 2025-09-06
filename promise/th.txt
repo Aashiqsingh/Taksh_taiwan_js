@@ -1,0 +1,14 @@
+Promise --> which fullfilled / rejected
+
+Promise --> javascript --> class
+
+Promise --> state -->  pending--(fullfilled / rejected)
+
+Javascript bydefault --> synchronuou
+There are two ways
+1. synchronuou
+2. asynchronuou
+    - block async 
+        - then catch
+    - function async
+        - async await 
